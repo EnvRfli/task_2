@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styletugas2.css">
+    <title>Form Pendaftaran</title>
+
+</head>
+
+<body id="bg_style">
+   
+
+<h1>Silahkan isi form dibawah ini</h1>
+
+<form action="get_this.php", method="GET">
+    <div id="bg_form">
+        <label class="texta">Masukkan nama lengkap anda</label><br/>
+        <input type="text", class="input_box", name="nama_orang">
+
+        <label class="texta">Usia</label><br/>
+        <input type="text", class="input_box", name="usia">
+        
+        <label class="texta">Jenis Kelamin</label><br/>
+        <select name="jenis_kelamin" class="input_box">
+            <option value="Laki-laki">Laki-laki</option>
+            <option value="Perempuan">Perempuan</option>
+        </select>
+
+        <label class="texta">Jumlah tiket yang dibeli:</label>
+        <input type="number" class="input_box", name="jmlh">
+
+        <div id="submit_form1">
+            <input type="submit" name="submit", value="Submit Form", id="submit_form">
+        </div>
+    </div>
+</form>
+</body>
+</html>

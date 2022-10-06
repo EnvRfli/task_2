@@ -1,0 +1,50 @@
+h1{
+    font-family: Franklin Gothic Medium;
+    text-align: center;
+    margin-top: 0.5cm;
+    color: white;
+}
+
+#bg_style{
+    background-color: darkturquoise;
+}
+#bg_form{
+    width: 500px;
+    background-color: blanchedalmond;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.input_box{
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+.texta{
+    font-size: 17px;
+}
+#submit_form1{
+    margin-top: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#submit_form{
+    width: 100%;
+    padding: 10px;
+    background-color: blueviolet;
+    border-width:thin;
+    border-radius: 10px;
+    color: white;
+}
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+th, td {
+    border: 1px solid black;
+    padding: 15px;
+}
